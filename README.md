@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\n
 The API to fetch Timings is used from [aladhan Prayer Times API](https://aladhan.com/prayer-times-api).
 
 ## Available Scripts
