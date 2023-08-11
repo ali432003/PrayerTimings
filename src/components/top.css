@@ -1,0 +1,46 @@
+.parent {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+#city,
+#country {
+    /* background: ;
+    cursor: pointer; */
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border: 2px solid #97a5a3;
+    border-radius: 5px;
+    outline: none;
+    color: #333;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition:  0.4s ease;
+}
+
+#city:focus,
+#country:focus {
+    border-color:#3f4197;
+    box-shadow: 0 12px 14px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:477px){
+    .mob {
+        display: flex!important;
+        flex-direction: column;
+    }
+    .h1mob{
+       color: #fdfdf6!important;
+    }
+}
+@media (max-width:799px){
+    #city,
+    #country{
+    margin-left:20px;
+    }
+}
+
+
+

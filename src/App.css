@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  box-sizing: border-box;
+}
+
+.practice{
+  background: url('https://media.islamicity.org/wp-content/uploads/2020/07/Hagia-Sofia-isp.jpg');
+  background-repeat: no-repeat  ;
+  background-size: cover;
+  height: 130vh;
+}
+@media(max-width:477px){
+  .practice{
+    height:120vh
+  }
+}
+@media(max-width:799px){
+  .practice{
+    height:120vh
+  }
+}
+
+
